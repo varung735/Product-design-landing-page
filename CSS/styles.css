@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #111111;
+    cursor: context-menu;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: #c91b28;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #c91b28;
+}
+
+/* ----------------- */
+/* Styles for navbar */
+/* ----------------- */
+
+#nav-container{
+    padding: 3% 5%;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 45px;
+    width: 130px;
+    filter: invert(13%) sepia(90%) saturate(3383%) hue-rotate(345deg) brightness(107%) contrast(96%);
+}
+
+.nav-links{
+    display:flex;
+    gap: 50px;
+}
+
+.drop-img{
+    margin-left: 3px;
+    height: 10px;
+    width: 12px;
+}
+
+/* ----------------------- */
+/* Styles for hero section */
+/* ----------------------- */
+
+.hero-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* styles for hero img */
+
+.hero-img-div{
+    display: flex;
+    width: 50%;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* styles for hero content */
+
+.hero-content-div{
+    width: 50%;
+}
+
+.hero-heading{
+    font-size: 4rem;
+    line-height: 45px;
+}
+
+.hero-span{
+    font-size: 20px;
+    color: #c91b28;
+}
+
+.hero-content{
+    margin-top: 5%;
+    padding-right: 14%;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.hero-btn{
+    margin-top: 6%;
+    width: 170px;
+}
+
+/* ------------------------------------------ */
+/* Styles for Features and Statistics Section */
+/* ------------------------------------------ */
+
+.features-container{
+    padding: 0 5%;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #181818 0%, #181818 50%, #111111 50%, #111111 100%);
+}
+
+.cards{
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card{
+    margin-top: 2%;
+    padding: 0 3%;
+    height: 350px;
+    width: 350px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.cb-heading{
+    margin-bottom: 6%;
+}
+
+.cb-content{
+    font-size: 17px;
+}
+
+.cards .card:nth-child(2){
+    background-color: #c91b28;
+}
+
+.cards :nth-child(2) > .card-footer > a{
+    color: #fff;
+}
+
+/* styles for statistics */
+
+.statistic-container{
+    padding: 0 6%;
+    margin-top: 5%;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.experience{
+    width: 35%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.xp-heading{
+    font-size: 6rem;
+    color: #c91b28;
+}
+
+.xp-content{
+    font-size: 30px;
+}
+
+/* Styles for statistics cards */
+
+.stati-cards{
+    width: 65%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 25px;
+    row-gap: 5px;
+}
+
+.stati-card{
+    width: 100%;
+    height: 120px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.st-heading{
+    font-size: 40px;
+    color: #c91b28;
+}
+
+.st-content{
+    margin-top: 1%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ---------------------------- */
+/* Styles for project container */
+/* ---------------------------- */
+
+.projects-container{
+    margin: auto;
+    padding: auto;
+}
+
+.project-heading-div{
+    margin-top: 5%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phd-heading{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.phd-content{
+    margin-top: 2%;
+}
+
+/* styles for project cards */
+
+.project-cards{
+    padding: 0 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    width: 600px;
+}
+
+.project-img-div{
+    height: 450px;
+    width: 550px;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.project-img{
+    height: 300px;
+    width: 520px;
+}
+
+.project-name{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.project-heading{
+    margin-bottom: 2%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/* --------------------------- */
+/* Contact Section Begins Here */
+/* --------------------------- */
+
+.contact-container{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 85%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+}
+
+.contact-heading{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    line-height: 65px;
+}
+
+.contact-content{
+    margin-top: 3%;
+    line-height: 23px;
+}
+
+.contact-btn{
+    margin-top: 100%;
+}
+
+/* ----------------- */
+/* Styles for footer */
+/* ----------------- */
+
+#footer-container{
+    padding: 5% 5%;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.footer-links{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.footer-logo-container{
+    padding-top: 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #181818;
+}
+
+.footer-logo{
+    height: 50px;
+    width: 100px;
+    filter: invert(13%) sepia(90%) saturate(3383%) hue-rotate(345deg) brightness(107%) contrast(96%);
+}
+
+.social-links{
+    display: flex;
+    gap: 30px;
+}
