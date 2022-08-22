@@ -41,6 +41,10 @@ a{
     color: #c91b28;
 }
 
+/* a::after{
+    content: (<i class="fa-solid fa-arrow-right"></i>);
+} */
+
 /* ----------------- */
 /* Styles for navbar */
 /* ----------------- */
@@ -258,7 +262,7 @@ a{
 /* styles for project cards */
 
 .project-cards{
-    padding: 0 5%;
+    padding: 0 10%;
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
