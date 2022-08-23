@@ -12,7 +12,7 @@ It took me around 5-6 hours for this project.
 
 ## Concepts used
 
- - Used flex flex property to align the divs and the nav elements.
+ - Used flex property to align the divs and the nav elements.
  - Used grid display property for the cards.
  - basic margin & padding.
  - changed the color of the logo usning filter property.
