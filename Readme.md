@@ -15,7 +15,7 @@ It took me around 5-6 hours for this project.
  - Used flex property to align the divs and the nav elements.
  - Used grid display property for the cards.
  - basic margin & padding.
- - changed the color of the logo usning filter property.
+ - changed the color of the logo using filter property.
 
 > This Web Page is not responsive for now.
 
