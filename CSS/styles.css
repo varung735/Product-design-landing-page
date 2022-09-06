@@ -69,6 +69,10 @@ a{
     width: 12px;
 }
 
+.bars-img{
+    display: none;
+}
+
 /* ----------------------- */
 /* Styles for hero section */
 /* ----------------------- */
@@ -358,4 +362,56 @@ a{
 .social-links{
     display: flex;
     gap: 30px;
+}
+
+/* Styles for mobile phones */
+/* here break-point is 1230px */
+
+@media screen and (max-width: 1230px){
+
+    body{
+        width: 100vw;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .m-none{
+        margin: 0;
+    }
+
+    .h{
+        height: fit-content;
+    }
+
+    .w-full{
+        width: 100%;
+    }
+
+    .bars-img{
+        display: inline;
+        height: 40px;
+        width: 40px;
+        filter: invert(13%) sepia(90%) saturate(3383%) hue-rotate(345deg) brightness(107%) contrast(96%);
+    }
+
+    .nav-flex{
+        padding: 0 2%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+
 }

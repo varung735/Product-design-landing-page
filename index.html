@@ -11,7 +11,7 @@
 <body>
 
     <!-- Nav Container Begins Here -->
-    <nav id="nav-container">
+    <nav id="nav-container" class="nav-flex">
 
         <!-- This div below contains nav-logo -->
         <div class="nav-logo-div">
@@ -19,7 +19,7 @@
         </div>
 
         <!-- This div below contains nav-links -->
-        <div class="nav-links-div">
+        <div class="nav-links-div hidden">
             <ul class="nav-links">
                 <li class="nav-link">HOME <img src="./assets/drop.png" alt="drop.png" class="drop-img"></li>
                 <li class="nav-link">PROJECT</li>
@@ -28,6 +28,7 @@
                 <li class="nav-link">OTHER PAGE <img src="./assets/drop.png" alt="drop.png" class="drop-img"></li>
             </ul>
         </div>
+        <img src="./assets/bars-solid.svg" alt="bars-solid.svg" class="bars-img">
     </nav>
     <!-- Nav Container Ends Here -->
 
@@ -35,15 +36,15 @@
     <main id="main-container">
 
         <!-- Hero Section Begins here -->
-        <div class="hero-container">
+        <div class="hero-container flex-col w-full">
 
             <!-- This div below contains image -->
-            <div class="hero-img-div">
+            <div class="hero-img-div w-full">
                 <img src="./assets/hero-img.png" alt="hero-img.png" class="hero-img">
             </div>
 
             <!-- This div below contains content -->
-            <div class="hero-content-div">
+            <div class="hero-content-div w-full">
                 <h1 class="hero-heading"> <span class="hero-span">Hello, I am Arther</span> <br> Visual Designer</h1>
                 <p class="hero-content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Error harum ullam, 
@@ -57,13 +58,13 @@
         <!-- Hero Section Ends here -->
 
         <!-- Features & Statistics Section Begins Here -->
-        <div class="features-container">
+        <div class="features-container w-full h">
             
             <!-- This div below cards here -->
-            <div class="cards">
+            <div class="cards flex-col w-full">
                 
                 <!-- card 1 -->
-                <div class="card">
+                <div class="card w-full">
                     <!-- card header -->
                     <div class="card-header">
                         <img src="./assets/ui-design.svg" alt="ui-design.svg" class="card-img">
@@ -80,7 +81,7 @@
                 </div>
 
                 <!-- card 2 -->
-                <div class="card">
+                <div class="card w-full">
                     <!-- card header -->
                     <div class="card-header">
                         <img src="./assets/product-design.svg" alt="product-design.svg" class="card-img">
@@ -97,7 +98,7 @@
                 </div>
 
                 <!-- card 3 -->
-                <div class="card">
+                <div class="card w-full">
                     <!-- card header -->
                     <div class="card-header">
                         <img src="./assets/brand.svg" alt="brand.svg" class="card-img">
@@ -116,7 +117,7 @@
             </div>
 
             <!-- This div below contains statistics -->
-            <div class="statistic-container">
+            <div class="statistic-container flex-col w-full">
 
                 <!-- This div below contains experience -->
                 <div class="experience">
@@ -125,7 +126,7 @@
                 </div>
 
                 <!-- This div below contains another statistics -->
-                <div class="stati-cards">
+                <div class="stati-cards w-full flex-col">
                     <!-- card 1 -->
                     <div class="stati-card">
                         <h1 class="st-heading">60+</h1>
@@ -155,7 +156,7 @@
         <div class="projects-container">
 
             <!-- This div blow contains heading & a button -->
-            <div class="project-heading-div">
+            <div class="project-heading-div w-full">
                 <div class="phd-div">
                     <div class="phd-heading">FEATURED PROJECTS</div>
                     <p class="phd-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, provident.</p>
@@ -164,13 +165,13 @@
             </div>
 
             <!-- This div below contains projects -->
-            <div class="project-cards">
+            <div class="project-cards flex-col w-full">
                 
                 <!-- project card 1 -->
                 <div class="project-card">
 
                     <!-- Project Image holder div -->
-                    <div class="project-img-div">
+                    <div class="project-img-div m-none">
                         <img src="./assets/pic1.jpg" alt="pic1.jpg" class="project-img">
                     </div>
 
@@ -186,7 +187,7 @@
                 <div class="project-card">
 
                     <!-- Project Image holder div -->
-                    <div class="project-img-div">
+                    <div class="project-img-div m-none">
                         <img src="./assets/pic2.jpg" alt="pic2.jpg" class="project-img">
                     </div>
 
@@ -202,7 +203,7 @@
                 <div class="project-card">
 
                     <!-- Project Image holder div -->
-                    <div class="project-img-div">
+                    <div class="project-img-div m-none">
                         <img src="./assets/pic3.jpg" alt="pic3.jpg" class="project-img">
                     </div>
 
@@ -218,7 +219,7 @@
                 <div class="project-card">
 
                     <!-- Project Image holder div -->
-                    <div class="project-img-div">
+                    <div class="project-img-div m-none">
                         <img src="./assets/pic4.jpg" alt="pic4.jpg" class="project-img">
                     </div>
 
@@ -235,11 +236,11 @@
         <!-- Project Section Ends Here -->
 
         <!-- Contact Section Begins Here -->
-        <div class="contact-container">
+        <div class="contact-container m-none w-full h flex-col">
 
             <!-- This div below contains content -->
             <div class="contact-content">
-                <h1 class="contact-heading">Let's Work together on <br> your next project</h1>
+                <h1 class="contact-heading">Let's Work together on <br class="hidden"> your next project</h1>
                 <p class="contact-content">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis fugit tempore natus sed <br>
                     voluptatum ut odio commodi facilis cum ipsam.
