@@ -369,6 +369,10 @@ a{
 
 @media screen and (max-width: 1230px){
 
+    .revert{
+        all: revert;
+    }
+
     body{
         width: 100vw;
     }
@@ -379,6 +383,26 @@ a{
 
     .m-none{
         margin: 0;
+    }
+
+    .mt-5{
+        margin-top: 5%;
+    }
+
+    .mt-10{
+        margin-top: 10%;
+    }
+
+    .ml-5{
+        margin-left: 3%;
+    }
+
+    .p-none{
+        padding: 0;
+    }
+
+    .p-5{
+        padding: 5%;
     }
 
     .h{
@@ -412,6 +436,15 @@ a{
 
     .flex-wrap{
         flex-wrap: wrap;
+    }
+
+    .project-cards{
+        all: revert;
+        padding: 5%;
+    }
+
+    .project-card{
+        all: revert;
     }
 
 }
